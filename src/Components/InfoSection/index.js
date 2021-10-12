@@ -30,10 +30,9 @@ const InfoSection = ({
                         <TopLine>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headline}</Heading>
                         <Subtitle darktext={darkText}>{description}</Subtitle>
-                        
                         <BtnWrap>
                             <Button
-                            onClick={event => window.location.href='/signin'}
+                            onClick={event => window.location.href='.'}
                             smooth={true}
                             duration={500}
                             spy={true}
