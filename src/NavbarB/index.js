@@ -41,67 +41,10 @@ const Navbar = ({ toggle }) => {
                    <FaBars />
                 </MobileIcon>
                 <NavMenu>
-                <NavItem>
-                        <NavLinks 
-                          to='/home'
-                          onClick={toggleHome}
-                          smooth={true} 
-                          duration={500} 
-                          spy={true} 
-                          exact='true' 
-                          offset={-80}
-                        >
-                            Home
-                           </NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks 
-                          to='about'
-                          smooth={true} 
-                          duration={500} 
-                          spy={true} 
-                          exact='true' 
-                          offset={-80}
-                        >
-                            Gallery
-                           </NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to='discover'
-                         smooth={true} 
-                         duration={500} 
-                         spy={true} 
-                         exact='true' 
-                         offset={-80}
-                        >
-                            About
-                            </NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to='services'
-                        smooth={true} 
-                        duration={500} 
-                        spy={true} 
-                        exact='true' 
-                        offset={-80}
-                        >
-                            Services
-                            </NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to='signup'
-                        smooth={true} 
-                        duration={500} 
-                        spy={true} 
-                        exact='true' 
-                        offset={-80}
-                        >
-                            Get a Quote
-                            </NavLinks>
-                    </NavItem>
+
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                    <NavBtnLink to="/home" onClick={toggleHome} >Back to Home</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
           </Nav>  

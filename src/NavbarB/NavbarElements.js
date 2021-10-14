@@ -97,12 +97,12 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
+  border-radius: 5px;
   background: #B73F3F;
   white-space: norap;
   padding: 10px 22px;
   position: absolute;
-  left: 0;
+  left: 30px;
   color: #000;
   outline: none;
   border: none;
@@ -117,3 +117,4 @@ export const NavBtnLink = styled(LinkR)`
     color: #010606;
   }
 `;
+

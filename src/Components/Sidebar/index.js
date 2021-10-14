@@ -27,7 +27,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SideBarRoute to= "/signin">Sign In</SideBarRoute>
+                    <SideBarRoute to= "/signin">Quote Me!</SideBarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

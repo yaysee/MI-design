@@ -100,7 +100,7 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to='.'>Sign In</NavBtnLink>
+                    <NavBtnLink to='.'>Quote Me!</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
           </Nav>  
